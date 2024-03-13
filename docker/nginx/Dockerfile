@@ -1,7 +1,7 @@
 FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/
-COPY default.conf /etc/nginx/conf.d/
+COPY templates /etc/nginx/templates/
 
 RUN apk update && apk upgrade && apk add --no-cache bash
 
