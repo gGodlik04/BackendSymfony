@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\HttpFoundation\Request;
 
-class HealthCheckAсtionTestTest extends WebTestCase
+class HealthCheckAсtionTestTest extends WebTestCase // test
 {
     public function test_request_responded_successful_result(): void
     {
